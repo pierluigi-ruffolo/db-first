@@ -1,27 +1,28 @@
 Tabella che rappresenta auto usate messe in vendita da un concessionario.
 
-id -
-marca -
-modello -
-targa -
-vin - 
-tipologia-
-anno_immatricolazione - 
-chilometraggio -
-tipo_di_cambio -
-quantita_marce -
-colore -
-prezzo -
-carburante -
-potenza - 
-trazione -
-posti -
-porte -
-cilindri -
-peso_a_vuoto - 
-revisione - 
-descrizione - 
-precedenti_proprietari - 
-usato_garantito - 
-disponibilita-
-link_foto-
+id - UNSIGNED INT - AUTO-INCREMENT - PRIMARY_KEY
+marca - VARCHAR(255) - NOT NULL
+modello - VARCHAR(255) - NOT NULL
+targa - VARCHAR(255) - NOT NULL - UNIQUE
+vin -  VARCHAR(255) - NOT NULL - UNIQUE
+tipologia- VARCHAR(255) - NULL
+anno_immatricolazione - YEAR - NULL
+chilometraggio - UNSIGNED INT - NULL
+tipo_di_cambio - VARCHAR(255) - NULL
+quantita_marce - UNSIGNED TINYINT - NULL
+colore - VARCHAR(255) - NULL
+prezzo - DECIMAL(10,2)  - NULL
+sconto_euro - DECIMAL(10,2) - NULL
+carburante - VARCHAR(255) - NULL
+potenza -  VARCHAR(255) - NULL
+trazione - VARCHAR(255) - NULL
+posti - UNSIGNED TINYINT - NULL
+porte - UNSIGNED TINYINT - NULL
+cilindri - UNSIGNED TINYINT - NULL
+peso_a_vuoto - UNSIGNED INT - NULL
+revisione - DATE - NULL
+descrizione - TEXT - NULL
+precedenti_proprietari - UNSIGNED TINYINT - NULL - DAFAULT 1
+usato_garantito - UNSIGNED TINYINT - NULL - DEFAULT 0
+disponibilita- UNSIGNED TINYINT - NULL - DEFAULT 1
+link_foto- VARCHAR(255) - NULL
