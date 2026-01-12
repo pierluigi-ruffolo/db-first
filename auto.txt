@@ -7,6 +7,7 @@ targa - VARCHAR(255) - NOT NULL - UNIQUE
 vin -  VARCHAR(255) - NOT NULL - UNIQUE
 tipologia- VARCHAR(255) - NULL
 anno_immatricolazione - YEAR - NULL
+
 chilometraggio - UNSIGNED INT - NULL
 tipo_di_cambio - VARCHAR(255) - NULL
 quantita_marce - UNSIGNED TINYINT - NULL
@@ -26,3 +27,4 @@ precedenti_proprietari - UNSIGNED TINYINT - NULL - DAFAULT 1
 usato_garantito - UNSIGNED TINYINT - NULL - DEFAULT 0
 disponibilita- UNSIGNED TINYINT - NULL - DEFAULT 1
 link_foto- VARCHAR(255) - NULL
+create_at - TIMESTAMP NOT NULL
