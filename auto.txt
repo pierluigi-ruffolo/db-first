@@ -1,0 +1,27 @@
+Tabella che rappresenta auto usate messe in vendita da un concessionario.
+
+id -
+marca -
+modello -
+targa -
+vin - 
+tipologia-
+anno_immatricolazione - 
+chilometraggio -
+tipo_di_cambio -
+quantita_marce -
+colore -
+prezzo -
+carburante -
+potenza - 
+trazione -
+posti -
+porte -
+cilindri -
+peso_a_vuoto - 
+revisione - 
+descrizione - 
+precedenti_proprietari - 
+usato_garantito - 
+disponibilita-
+link_foto-
