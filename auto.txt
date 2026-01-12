@@ -1,6 +1,6 @@
 Tabella che rappresenta auto usate messe in vendita da un concessionario.
 
-id - UNSIGNED INT - AUTO-INCREMENT - PRIMARY_KEY
+id - UNSIGNED INT - AUTO_INCREMENT - PRIMARY_KEY
 marca - VARCHAR(255) - NOT NULL
 modello - VARCHAR(255) - NOT NULL
 targa - VARCHAR(255) - NOT NULL - UNIQUE
